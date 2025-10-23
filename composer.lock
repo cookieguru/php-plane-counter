@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e71a953f06678c8d437b2f9f97ca0de",
+    "packages": [
+        {
+            "name": "afk11/sbs1",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afk11/sbs1.git",
+                "reference": "77f63afc8492e01a27cc0175e36abe11659a82fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afk11/sbs1/zipball/77f63afc8492e01a27cc0175e36abe11659a82fb",
+                "reference": "77f63afc8492e01a27cc0175e36abe11659a82fb",
+                "shasum": ""
+            },
+            "require-dev": {
+                "infection/infection": "^0.8.2",
+                "phpstan/phpstan": "^0.9.2",
+                "phpunit/phpunit": "^6.5",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Afk11\\Sbs1\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SBS1 packet decoder",
+            "support": {
+                "issues": "https://github.com/afk11/sbs1/issues",
+                "source": "https://github.com/afk11/sbs1/tree/master"
+            },
+            "time": "2018-07-07T12:57:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-bcmath": "*",
+        "ext-redis": "*",
+        "ext-zip": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

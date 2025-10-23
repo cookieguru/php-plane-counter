@@ -1,0 +1,20 @@
+{
+	"name": "cookieguru/php-plane-counter",
+	"description": "Code from lightning talk on how to listen to a dump1090 server",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tim Bond"
+		}
+	],
+	"require": {
+		"php": "^8.2",
+		"afk11/sbs1": "^0.0.4",
+		"ext-bcmath": "*",
+		"ext-mysqli": "*",
+		"ext-redis": "*",
+		"ext-zip": "*",
+		"ext-zlib": "*"
+	}
+}
