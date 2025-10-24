@@ -6,6 +6,7 @@ graph of the count of each aircraft type that sent a message.
 
 [MergePHP](https://www.mergephp.com/) needed lightning talks and I thought this
 would be an interesting small project that would fit in the time allotment.
+You can watch the presentation [here](https://www.youtube.com/watch?v=S8SDtZce_mk&t=621).
 
 This guide assumes:
 * You have a Redis server [installed](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/)
